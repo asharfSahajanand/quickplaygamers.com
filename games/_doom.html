@@ -110,6 +110,91 @@
             }
         })
     </script>
+
+ <!-- Google GPT -->
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" crossorigin="anonymous"></script>
+
+    <script>
+        window.googletag = window.googletag || { cmd: [] };
+
+        googletag.cmd.push(function () {
+
+            /* Responsive Size Mapping */
+            var mapping = googletag.sizeMapping()
+                .addSize([1024, 0], [[970, 250], [970, 90], [728, 90]])
+                .addSize([768, 0], [[728, 90], [300, 250]])
+                .addSize([0, 0], [[300, 250], [320, 480]])
+                .build();
+
+            function defineAd(path, id) {
+                googletag.defineSlot(
+                    path,
+                    [[970, 250], [970, 90], [728, 90], [300, 250], [320, 480]],
+                    id
+                ).defineSizeMapping(mapping)
+                    .addService(googletag.pubads());
+            }
+
+            /* Ad Slots */
+            defineAd('/23330730517/gamecenter7.com_d1', 'div-gpt-ad-1766482883767-0');
+            defineAd('/23330730517/gamecenter7.com_d2', 'div-gpt-ad-1766482918698-0');
+            defineAd('/23330730517/gamecenter7.com_d3', 'div-gpt-ad-1766483079328-0');
+
+            /* Lazy Load */
+            googletag.pubads().enableLazyLoad({
+                fetchMarginPercent: 400,
+                renderMarginPercent: 200,
+                mobileScaling: 2
+            });
+
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+
+    <style>
+        /* ================= ADS CSS ================= */
+
+        .ad_box {
+            width: 100% !important;
+            text-align: center;
+            margin: 18px auto;
+        }
+
+        /* AD CONTAINER */
+        .ad-slot {
+            width: 100% !important;
+            margin: 0 auto;
+            min-height: 250px;
+            /* REQUIRED for lazy load */
+        }
+
+        /* Desktop */
+        @media (min-width:1024px) {
+            .ad-slot {
+                min-height: 90px;
+            }
+        }
+
+        /* Tablet */
+        @media (min-width:768px) and (max-width:1023px) {
+            .ad-slot {
+                min-height: 90px;
+            }
+        }
+
+        /* Mobile */
+        @media (max-width:767px) {
+            .ad-slot {
+                min-height: 250px;
+            }
+        }
+    </style>
+
+
+
+
+
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -228,29 +313,6 @@
             </div>
         </div>
         <div class="search_pat">
-             <!-- <form action="https://www.gamecenter7.com/search/" method="get">
-                <input type="text" placeholder="Search" name="key" autocomplete="off"
-                       onfocus="document.querySelector('.search_pat').classList.add('active')"
-                       onblur="document.querySelector('.search_pat').classList.remove('active')">
-                <button type="submit"><i class="iconfont icon-Search"></i></button>
-            </form> -->
-<!--            <nav class="search_recommend">-->
-<!--                -->
-<!--                <a href="/serach/?key=Stardew Valley">Stardew Valley</a>-->
-<!--                -->
-<!--                <a href="/serach/?key= Terraria"> Terraria</a>-->
-<!--                -->
-<!--                <a href="/serach/?key=Squid Game">Squid Game</a>-->
-<!--                -->
-<!--                <a href="/serach/?key=Bloons TD 6">Bloons TD 6</a>-->
-<!--                -->
-<!--                <a href="/serach/?key=Game">Game</a>-->
-<!--                -->
-<!--                <a href="/serach/?key=Minecraft">Minecraft</a>-->
-<!--                -->
-<!--                <a href="/serach/?key=True_Skate">True_Skate</a>-->
-<!--                -->
-<!--            </nav>-->
         </div>
         <a class="mobile_search_btn" href="javascript:;"></a>
     </div>
@@ -287,31 +349,11 @@
     threshold: 300
   });
 });
-</script>            <script>
-                window.googletag = window.googletag || {cmd: []};
-                googletag.cmd.push(function () {
-                    var responsiveAdSlot = googletag.defineSlot('/23330730517/gamecenter7.com_d1', [[300, 250], [336, 280], [728, 90], [750, 250], [780, 250], [970, 90], [970, 250]], 'div-gpt-ad-1766482883767-0').addService(googletag.pubads());
-                    var mapping =
-                        googletag.sizeMapping()
-                            .addSize([1380, 20], [[970, 90], [970, 250]])
-                            .addSize([1110, 20], [[780, 250]])
-                            .addSize([1070, 20], [[750, 250]])
-                            .addSize([1050, 20], [[728, 90]])
-                            .addSize([20, 20], [[300, 250], [336, 280]])
-                            .addSize([0, 0], [])
-                            .build();
-                    responsiveAdSlot.defineSizeMapping(mapping);
-                    googletag.pubads().collapseEmptyDivs();
-                    googletag.enableServices();
-                });
-            </script>
-            <!-- /23330730517/gamecenter7.com_d1 -->
-            <div id='div-gpt-ad-1766482883767-0' style='min-width: 300px; min-height: 250px;'>
-                <script>
-                    googletag.cmd.push(function () {
-                        googletag.display('div-gpt-ad-1766482883767-0');
-                    });
-                </script>
+</script>           
+            <!-- div 1  -->
+            <div class="ad_box">
+                <div id="div-gpt-ad-1766482883767-0" class="ad-slot"></div>
+                <p>Advertisement</p>
             </div>
         </div>
         <ul class="info_detail">
@@ -421,61 +463,11 @@
     threshold: 300
   });
 });
-</script>            <script>
-        window.googletag = window.googletag || { cmd: [] };
-        googletag.cmd.push(function () {
-          var responsiveAdSlot = googletag
-            .defineSlot(
-              "/23330730517/gamecenter7.com_d3",
-              [
-                [800, 300],
-                [728, 90],
-                [320, 100],
-              ],
-              "div-gpt-ad-1766483079328-0"
-            )
-            .addService(googletag.pubads());
-
-          var mapping = googletag
-            .sizeMapping()
-            // Large desktop
-            .addSize(
-              [1024, 0],
-              [
-                [800, 300],
-                [728, 90],
-              ]
-            )
-
-            // Tablet
-            .addSize([768, 0], [[728, 90]])
-
-            // Mobile
-            .addSize([0, 0], [[320, 100]])
-            .build();
-
-          responsiveAdSlot.defineSizeMapping(mapping);
-
-          googletag.pubads().collapseEmptyDivs();
-          googletag.enableServices();
-        });
-      </script>
-            <!-- /23330730517/gamecenter7.com_d3 -->
-            <div id='div-gpt-ad-1766483079328-0' style='min-width: 300px; min-height: 250px;'>
-                <script>
-                    googletag.cmd.push(function () {
-                        googletag.display('div-gpt-ad-1766483079328-0');
-                    });
-                </script>
-            <style>
-                @media (max-width: 767px) {
-                    #div-gpt-ad-1766483079328-0 {
-                        min-width: 320px !important;
-                        min-height: 100px !important;
-                    }
-
-                }
-            </style>
+</script>           
+              <!-- div 2  -->
+            <div class="ad_box">
+                <div id="div-gpt-ad-1766482918698-0" class="ad-slot"></div>
+                <p>Advertisement</p>
             </div>
         </div>
         <div class="desc_pat">
@@ -491,73 +483,13 @@
         <div class="banner_ad">
 <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
   <script src=".././lazyload.min.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-  new LazyLoad({
-    elements_selector: ".lazy",
-    threshold: 300
-  });
-});
-</script> 
-<script>
-window.googletag = window.googletag || {cmd: []};
-googletag.cmd.push(function () {
+   
 
-  var responsiveAdSlot = googletag.defineSlot(
-    "/23330730517/gamecenter7.com_d2",
-    [
-      [800, 300],
-      [728, 90],
-      [336, 280],
-      [300, 250],
-    ],
-    "div-gpt-ad-1766482918698-0"
-  ).addService(googletag.pubads());
-
-  var mapping = googletag.sizeMapping()
-
-    // Desktop Large
-    .addSize([1024, 0], [
-      [800, 300],
-      [728, 90]
-    ])
-
-    // Tablet
-    .addSize([768, 0], [
-      [728, 90],
-      [336, 280]
-    ])
-
-    // Mobile
-    .addSize([0, 0], [
-      [300, 250],
-      [336, 280]
-    ])
-
-    .build();
-
-  responsiveAdSlot.defineSizeMapping(mapping);
-
-  googletag.pubads().collapseEmptyDivs();
-  googletag.enableServices();
-});
-</script>
-
-<!-- /23330730517/gamecenter7.com_d2 -->
-<div id="div-gpt-ad-1766482918698-0" style="min-width:300px; min-height:250px;">
-  <script>
-    googletag.cmd.push(function(){ googletag.display("div-gpt-ad-1766482918698-0"); });
-  </script>
-  <style>
-                @media (max-width: 767px) {
-                    #div-gpt-ad-1766482918698-0 {
-                        min-width: 320px !important;
-                        min-height: 100px !important;
-                    }
-                    
-                }
-            </style>
-</div>
+  <!-- div 3 -->
+            <div class="ad_box">
+                <div id="div-gpt-ad-1766483079328-0" class="ad-slot"></div>
+                <p>Advertisement</p>
+            </div>
 </div>
 
         <div class="walkthrough">
@@ -585,15 +517,7 @@ googletag.cmd.push(function () {
                     class="iconfont icon-youjiantou"></i></a>
             <a class="whlk_next" href="javascript:;"><i class="iconfont icon-youjiantou"></i></a>
         </div>
-        <!--        <div class="desc_pat">-->
-        <!--            <h2 class="container category_name">How to play</h2>-->
-        <!--            <div class="desc_box">-->
-        <!--                <div class="des">-->
-        <!--                    <p><span style="font-family: 宋体, SimSun; font-size: 14px;">1,Get up from the table and pick up the gun on the floor, finish off three or two small monsters in the room, trigger the switch next to the door to see a video, then go out and put on a consul armor.</span></p><p><span style="font-family: 宋体, SimSun; font-size: 14px;">2,Approach the passage, inside are several mutated facilities staff, here is a tutorial to practice decapitation. Use the pistol to hit the monster to the orange glow when close to click F to trigger the decapitation. Then walk to the end and you can see a body with a shotgun pinned under a valve. Go over and bring the gun over.</span></p><p><span style="font-family: 宋体, SimSun; font-size: 14px;">3,Hold open the valve, the door is a young demon, this monster is fast, more flexible, while will throw fireballs from a distance. Use the shotgun that just arrived to take two hard hits, and then close range to end.</span></p><p><span style="font-family: 宋体, SimSun; font-size: 14px;">Go out and see a nest of blood horns in the center, go up and click E on its heart to pull out its heart and crush it. Then the area will be blocked and refresh monsters from everywhere, we need to teleport out of here to destroy all the monsters in order to move on, the main monsters here or young demons, the facility has a number of explosive cans inside, you can shoot to detonate. Beware of young devils throwing fireballs from a distance.</span></p><p><br/></p>-->
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--            <a href="javascript:;"></a>-->
-        <!--        </div>-->
+       
         <div class="tags">
             <h2>Tags For This Game</h2>
             <nav>
@@ -1027,6 +951,50 @@ document.addEventListener("DOMContentLoaded", function(){
         }
     }
 </script>
+
+ <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+            const adIds = [
+                'div-gpt-ad-1766482883767-0', // D1
+                'div-gpt-ad-1766482918698-0', // D2
+                'div-gpt-ad-1766483079328-0'  // D3
+            ];
+
+            let isOverAd = false;
+
+            adIds.forEach(function (id) {
+                const adEl = document.getElementById(id);
+                if (!adEl) return;
+
+                adEl.addEventListener('mouseenter', function () {
+                    isOverAd = true;
+                });
+
+                adEl.addEventListener('mouseleave', function () {
+                    isOverAd = false;
+                });
+            });
+
+            window.addEventListener('blur', function () {
+                if (isOverAd) {
+                    window.dataLayer = window.dataLayer || [];
+                    dataLayer.push({
+                        event: 'detail_ck'
+                    });
+                }
+            });
+
+        });
+    </script>
+             <script>
+        googletag.cmd.push(function () {
+            googletag.display('div-gpt-ad-1766482883767-0');
+            googletag.display('div-gpt-ad-1766482918698-0');
+            googletag.display('div-gpt-ad-1766483079328-0');
+        });
+    </script>
+    
 </body>
 
 
