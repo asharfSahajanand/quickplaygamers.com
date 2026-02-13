@@ -1,0 +1,194 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4128835 */
+  src: url('iconfontf39c.eot?t=1695297023489'); /* IE9 */
+  src: url('iconfontf39c.eot?t=1695297023489#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('iconfontf39c.woff2?t=1695297023489') format('woff2'),
+       url('iconfontf39c.woff?t=1695297023489') format('woff'),
+       url('iconfontf39c.ttf?t=1695297023489') format('truetype'),
+       url('iconfontf39c.svg?t=1695297023489#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-quanping:before {
+  content: "\eb11";
+}
+
+.icon-bofang:before {
+  content: "\e773";
+}
+
+.icon-caidi:before {
+  content: "\e725";
+}
+
+.icon-zanyang:before {
+  content: "\e726";
+}
+
+.icon-dian:before {
+  content: "\e74d";
+}
+
+.icon-games:before {
+  content: "\e75f";
+}
+
+.icon-Minecraftyouxi:before {
+  content: "\e740";
+}
+
+.icon-Robloxyouxi:before {
+  content: "\e741";
+}
+
+.icon-a-jiejiyouxiArcade:before {
+  content: "\e742";
+}
+
+.icon-a-celveyouxiStrategy:before {
+  content: "\e743";
+}
+
+.icon-a-yizhiyouxiPuzzle:before {
+  content: "\e744";
+}
+
+.icon-a-jiaoyuyouxiEducation:before {
+  content: "\e745";
+}
+
+.icon-a-jiaosebanyanRolePlaying:before {
+  content: "\e746";
+}
+
+.icon-a-kapaiyouxiCard:before {
+  content: "\e747";
+}
+
+.icon-a-moniyouxiSimulation:before {
+  content: "\e748";
+}
+
+.icon-a-dongzuoyouxiAction:before {
+  content: "\e749";
+}
+
+.icon-a-maoxianyouxiAdventure:before {
+  content: "\e74a";
+}
+
+.icon-a-tiyuyouxiSports:before {
+  content: "\e74b";
+}
+
+.icon-a-xiuxianyouxiCasual:before {
+  content: "\e74c";
+}
+
+.icon-xing:before {
+  content: "\e73e";
+}
+
+.icon-youjiantou:before {
+  content: "\e73f";
+}
+
+.icon-guanbi:before {
+  content: "\e73c";
+}
+
+.icon-Search:before {
+  content: "\e73d";
+}
+
+.icon-a-TopGames:before {
+  content: "\e736";
+}
+
+.icon-Home:before {
+  content: "\e737";
+}
+
+.icon-a-EditorsPicks:before {
+  content: "\e738";
+}
+
+.icon-a-NewGames:before {
+  content: "\e739";
+}
+
+.icon-Category:before {
+  content: "\e73a";
+}
+
+.icon-a-HotGames:before {
+  content: "\e73b";
+}
+
+.icon-xiala-hui:before {
+  content: "\e732";
+}
+
+.icon-apple:before {
+  content: "\e733";
+}
+
+.icon-a-GooglePlaylogo:before {
+  content: "\e734";
+}
+
+.icon-xiala-xia:before {
+  content: "\e735";
+}
+
+.icon-fenxiang-4:before {
+  content: "\e72e";
+}
+
+.icon-fenxiang-3:before {
+  content: "\e72f";
+}
+
+.icon-fenxiang-1:before {
+  content: "\e730";
+}
+
+.icon-fenxiang-2:before {
+  content: "\e731";
+}
+
+.icon-a-CurrentVersion:before {
+  content: "\e728";
+}
+
+.icon-Ratings:before {
+  content: "\e729";
+}
+
+.icon-anquan:before {
+  content: "\e72a";
+}
+
+.icon-Platform:before {
+  content: "\e72b";
+}
+
+.icon-Developer:before {
+  content: "\e72c";
+}
+
+.icon-Size:before {
+  content: "\e72d";
+}
+
+.icon-a-LastUpdated:before {
+  content: "\e727";
+}
+
